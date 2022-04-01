@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url(sfondo.jpeg);
+    text-align: center;
+	font-family: 'Montserrat', sans-serif
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+	color: rgb(7, 122, 78);
+}
+
+h2{
+    font-size: 32px;
+	color: rgb(185, 128, 20);
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+img{
+border-radius: 500px; 
+width: 300px;
+}
+
+a{
+    background: rgb(60, 123, 175);
+    border-radius: 36px;
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 17px 24px;
+    margin: 26px;
+    padding-bottom: 15px;
+}
+
+a:hover{
+    background: rgba(110, 192, 78, 0.788);
+    color: black;
+}
+
+p{
+    margin: 28px 0;
+    font-size: 26px;
+}
+
+ol{
+	display: inline-flex;
+}
+
+li{
+	display: inline-block;
+}
+
+.card-white{
+    background: rgb(162, 172, 164);
+    border-style: solid;
+    border: 50 px;
+    color: black;
+    margin: 36px;
+    padding: 26px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 18px;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+@media (max-width: 720px){
+    .container{
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px){
+    .container{
+        width: 400px;
+    }
+    img{
+        width: 100%;
+    }
+    a{
+        width: 100%;
+    }
+}
